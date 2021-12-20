@@ -1,0 +1,11 @@
+framework module CalendarContol {
+  umbrella header "CalendarContol.h"
+
+  export *
+  module * { export * }
+}
+
+module CalendarContol.Swift {
+    header "CalendarContol-Swift.h"
+    requires objc
+}
